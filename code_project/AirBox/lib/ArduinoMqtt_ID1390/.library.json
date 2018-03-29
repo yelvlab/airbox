@@ -1,0 +1,45 @@
+{
+    "name": "ArduinoMqtt", 
+    "repository": {
+        "url": "https://github.com/monstrenyatko/ArduinoMqtt.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.5.1", 
+    "export": {
+        "exclude": [
+            "extras"
+        ]
+    }, 
+    "examples": "examples/*/*.ino", 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Oleg Kovalenko", 
+            "url": "https://github.com/monstrenyatko", 
+            "email": "monstrenyatko@gmail.com"
+        }
+    ], 
+    "keywords": [
+        "m2m", 
+        "mqtt", 
+        "iot"
+    ], 
+    "id": 1390, 
+    "description": "The library bundles synchronous C++ MQTT Client implementation with C/C++ Eclipse Paho MQTTPacket library. It supports MQTT 3.1 and 3.1.1; QoS 0, 1 and 2."
+}

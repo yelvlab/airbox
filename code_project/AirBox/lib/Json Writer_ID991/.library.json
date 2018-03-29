@@ -1,0 +1,30 @@
+{
+    "name": "Json Writer", 
+    "repository": {
+        "url": "https://github.com/maxpowel/ArduinoJsonWriter.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "847d9df059", 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "\u00c1lvaro Garc\u00eda", 
+            "url": "https://github.com/maxpowel", 
+            "email": "maxpowel@gmail.com"
+        }
+    ], 
+    "keywords": [
+        "json", 
+        "writer", 
+        "generator"
+    ], 
+    "id": 991, 
+    "description": "Json Writer is a light weight library that make it easier to generate json document on Arduino without memory limitation"
+}
